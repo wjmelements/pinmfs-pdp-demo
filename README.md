@@ -82,3 +82,4 @@ I worked through many issues along the way.
 7. [libp2p: fix StreamStateError](https://github.com/libp2p/js-libp2p/pull/3423)
 8. [Filecoin Pin: fix identify flow when there are too many dial options](https://github.com/filecoin-project/filecoin-pin/pull/386)
 9. [Kubo: fix gofmt help message](https://github.com/ipfs/kubo/pull/11256)
+10. [Kubo: implement Statfs for MFS](https://github.com/ipfs/kubo/pull/11261)
