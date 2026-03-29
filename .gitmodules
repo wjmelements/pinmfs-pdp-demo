@@ -1,0 +1,12 @@
+[submodule "packages/kubo"]
+	path = packages/kubo
+	url = git@github.com:wjmelements/kubo
+[submodule "packages/synapse-sdk"]
+	path = packages/synapse-sdk
+	url = git@github.com:FilOzone/synapse-sdk
+[submodule "packages/filecoin-pin"]
+	path = packages/filecoin-pin
+	url = git@github.com:filecoin-project/filecoin-pin
+[submodule "packages/js-libp2p"]
+	path = packages/js-libp2p
+	url = git@github.com:wjmelements/js-libp2p
