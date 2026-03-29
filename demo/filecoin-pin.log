@@ -1,0 +1,128 @@
+[18:12:23.838] INFO (93069): Starting filecoin-pin v0.19.0 daemon...
+[18:12:24.835] INFO (93069): Initializing Synapse (session key)
+    event: "synapse.init"
+    mode: "session-key"
+[18:12:24.836] INFO (93069): Synapse initialized
+    event: "synapse.init.success"
+    chain: "Filecoin - Calibration testnet"
+[18:12:24.964] INFO (93069): Filecoin pin store started
+[18:12:24.966] INFO (93069): Filecoin pinning service API server started
+[18:12:24.966] INFO (93069): filecoin-pin daemon started successfully
+    port: 3000
+[18:12:24.966] INFO (93069): Pinning service listening on http://127.0.0.1:3000
+[18:12:44.253] INFO (policy/12D3KooWBa7pLjyMSPvbSbqBYwN8WcP8xKj5kZ77fj8AKuDPwBbY/mfs/93069): Starting Filecoin pin operation
+    userId: "default-user"
+    pinId: "pin-1774825964253-1"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+    carFilePath: "cars/QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA-1774825964253.car"
+[18:12:44.354] INFO (93069): Starting background pin processing
+    pinId: "pin-1774825964253-1"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+[18:12:44.387] INFO (93069): Pinning Helia node started with peer ID: 12D3KooWPGLSstqLPUfvJRaYBXExw7Qjk4ZMtY2jKnLFrtXRMVRw
+[18:12:44.387] INFO (93069): Writing blocks to CAR file: cars/QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA-1774825964253.car
+[18:12:44.387] INFO (93069): Connecting to origin nodes
+    origins: 54
+    dialTargets: 1
+[18:12:44.415] INFO (93069): Connected to origin node
+    addr: "/ip4/10.0.0.172/tcp/4001/p2p/12D3KooWBa7pLjyMSPvbSbqBYwN8WcP8xKj5kZ77fj8AKuDPwBbY"
+[18:12:44.465] INFO (93069): Block written to CAR file
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+[18:12:44.487] INFO (93069): Block written to CAR file
+    cid: "QmeN9L39MjzARvwxGwq4zmwfP91GGTEnFtKLhkVKLJ6CxL"
+[18:12:44.507] INFO (93069): Block written to CAR file
+    cid: "QmUeYxJFvTdjqdDxLVbJdfJyDyXTkzguYSHVyzbBfqyjRw"
+[18:12:44.526] INFO (93069): Block written to CAR file
+    cid: "QmTS57roX6VaHGrNhsCbpHSTgbYD7dqfbPPorzwWhMTpCD"
+[18:12:44.545] INFO (93069): Block written to CAR file
+    cid: "QmbyoUysNBKDu5NpAjJgSAKXhrnrFPhahek65oPkgDoRJQ"
+[18:12:44.565] INFO (93069): Block written to CAR file
+    cid: "QmSXz851LAV6u14UNPCxmjertKfx1R97zn55u1Sz8NQgQQ"
+[18:12:44.582] INFO (93069): Block written to CAR file
+    cid: "QmSjjTtqPKsM1apprAmCKLsiJVdb8N3uupt8SrQHxVKLx7"
+[18:12:44.603] INFO (93069): Block written to CAR file
+    cid: "QmQXA8p3Gip4J8Zw12LbS68BfscnFjaVhgj7gcDMa5aG1o"
+[18:12:44.604] INFO (93069): Content fully pinned
+    pinId: "pin-1774825964253-1"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+[18:12:44.605] INFO (93069): CAR file finalized
+    pinId: "pin-1774825964253-1"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+    blocksWritten: 8
+    totalSize: 164889
+    missingBlocks: 0
+[18:12:46.237] INFO (93069): Provider selected
+    event: "synapse.upload.provider_selected"
+    contextId: "pin-1774825964253-1"
+    providerId: "4"
+    providerName: "infrafolio-calib"
+[18:12:46.237] INFO (93069): Data set resolved
+    event: "synapse.upload.dataset_resolved"
+    contextId: "pin-1774825964253-1"
+    dataSetId: "12701"
+    providerId: "4"
+[18:12:46.238] INFO (93069): Provider selected
+    event: "synapse.upload.provider_selected"
+    contextId: "pin-1774825964253-1"
+    providerId: "2"
+    providerName: "ezpdpz-calib2"
+[18:12:46.238] INFO (93069): Data set resolved
+    event: "synapse.upload.dataset_resolved"
+    contextId: "pin-1774825964253-1"
+    dataSetId: "12700"
+    providerId: "2"
+[18:12:52.289] INFO (93069): Piece stored on provider
+    event: "synapse.upload.stored"
+    contextId: "pin-1774825964253-1"
+    providerId: "4"
+    pieceCid: "bafkzcibeshsqkdiqah4rt5c6eyy554esgkawtwjvjneygqpwg3jfgpctjmkibvffby"
+[18:13:05.490] INFO (93069): Secondary copy complete
+    event: "synapse.upload.copy_complete"
+    contextId: "pin-1774825964253-1"
+    providerId: "2"
+    pieceCid: "bafkzcibeshsqkdiqah4rt5c6eyy554esgkawtwjvjneygqpwg3jfgpctjmkibvffby"
+[18:13:10.670] INFO (93069): Piece addition transaction submitted
+    event: "synapse.upload.pieces_added"
+    contextId: "pin-1774825964253-1"
+    txHash: "0xfbd40d77176f47a34932bd9c10d6a9ef64ea653e2fedb1db0061862a554ddd7e"
+    providerId: "2"
+    pieceCount: 1
+[18:13:22.754] INFO (93069): Piece addition transaction submitted
+    event: "synapse.upload.pieces_added"
+    contextId: "pin-1774825964253-1"
+    txHash: "0x4d07794fc8255121552562beedf738e929932cb6ce3fe6b0346bd2503066d2f0"
+    providerId: "4"
+    pieceCount: 1
+[18:15:01.110] INFO (93069): Piece addition confirmed on-chain
+    event: "synapse.upload.pieces_confirmed"
+    contextId: "pin-1774825964253-1"
+    dataSetId: "12701"
+    providerId: "4"
+    pieceIds: [
+      "11"
+    ]
+[18:15:01.110] INFO (93069): Piece addition confirmed on-chain
+    event: "synapse.upload.pieces_confirmed"
+    contextId: "pin-1774825964253-1"
+    dataSetId: "12700"
+    providerId: "2"
+    pieceIds: [
+      "11"
+    ]
+[18:15:01.110] INFO (93069): Successfully uploaded to Filecoin with Synapse
+    event: "synapse.upload.success"
+    contextId: "pin-1774825964253-1"
+    pieceCid: "bafkzcibeshsqkdiqah4rt5c6eyy554esgkawtwjvjneygqpwg3jfgpctjmkibvffby"
+    size: 165231
+    copies: 2
+    failedAttempts: 0
+[18:15:01.110] INFO (93069): CAR file completed for pin
+    pinId: "pin-1774825964253-1"
+    userId: "default-user"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
+    blocksWritten: 8
+    totalSize: 164889
+    missingBlocks: 0
+    carFilePath: "cars/QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA-1774825964253.car"
+[18:15:01.110] INFO (93069): Pin processing completed successfully
+    pinId: "pin-1774825964253-1"
+    cid: "QmWTraBMHUpnayD26HJmRnCn9M4wLFprkdgULA7TrotEhA"
